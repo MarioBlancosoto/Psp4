@@ -26,14 +26,14 @@ public class Exercicio4Psp {
         switch(select){
            
             case 1: par.start();
-                
+              break;
                
             case 2:impar.start();
-                
+              break;
                 
             case 3:dosTres.start();
+              break;
               
-                
         }
         }while(select!=100);
     } 
