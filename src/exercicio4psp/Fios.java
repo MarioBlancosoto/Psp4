@@ -5,11 +5,11 @@ package exercicio4psp;
 public class Fios extends Thread{
     
     static int select;
-    int par=0;
-    int imPar =0;
-    int finDos=0;
-    int finTres=0;
-    int dosTres =0;
+    static int par=0;
+    static int imPar =0;
+    static int finDos=0;
+    static int finTres=0;
+    static int dosTres =0;
     
      public Fios(String nome,int selector){
         super(nome);
@@ -27,7 +27,7 @@ public class Fios extends Thread{
             System.out.println(""+par);
         }
         }
-        if(select==1){
+        else if(select==1){
            for(int i=0;i<1000;i+=2){
           
             imPar +=i;
@@ -36,7 +36,7 @@ public class Fios extends Thread{
         }  
             
             
-        }else if(select==2){
+        }else if (select==2){
             
             for(int i=0;i<1000;i++){
                 if(i%10==2){

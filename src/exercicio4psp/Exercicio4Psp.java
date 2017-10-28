@@ -21,7 +21,7 @@ public class Exercicio4Psp {
         Fios par = new Fios(" Pares ",0);
         Fios impar = new Fios("Impares",1); 
         Fios dosTres = new Fios("Dos O Tres ",2);
-        int select= Integer.parseInt(JOptionPane.showInputDialog("Introduce la instrucción \n 1.Pares \n 2.Impares \n Terminados en dos y tres "));
+        int select= Integer.parseInt(JOptionPane.showInputDialog("Introduce la instrucción \n 1.Pares \n 2.Impares \n 3.Terminados en dos y tres "));
         do{
         switch(select){
            
